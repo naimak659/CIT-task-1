@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
+
+/* =========common css S=========*/
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+ul,
+ol {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+img {
+  vertical-align: middle;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+li,
+a,
+div,
+span,
+ul {
+  margin: 0;
+  padding: 0;
+}
+body {
+}
+
+:root {
+  --poppins: "Poppins", sans-serif;
+  --dark: #1e2022;
+}
+/* =========common css END=========*/
+/* =========main content S=========*/
+
+.main {
+  padding-left: 300px;
+  padding-top: 20px;
+  overflow: hidden;
+}
+.content {
+  margin-right: -50px;
+}
+.title {
+  margin-top: 120px;
+  font-family: var(--poppins);
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #1e2022;
+  max-width: 550px;
+  padding-bottom: 1rem;
+}
+.details {
+  font-family: var(--poppins);
+  color: var(--dark);
+  font-size: 1rem;
+  font-weight: 400;
+  opacity: 0.6;
+  max-width: 600px;
+  padding-bottom: 54px;
+}
+
+/* =========main content END=========*/
+/* =========main box S=========*/
+
+.box {
+  padding: 40px 33px;
+  background: #fff;
+  border-radius: 10px;
+  width: 260px;
+  box-shadow: 2px 3px 10px 0px rgba(0, 0, 0, 0.45);
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.icon {
+  color: #377dff;
+  font-size: 20px;
+}
+.box__title {
+  color: var(--dark);
+  font-family: var(--poppins);
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding-top: 28px;
+}
+.box__detail {
+  font-family: var(--poppins);
+  font-weight: 400;
+  color: var(--dark);
+  opacity: 0.6;
+  font-size: 1rem;
+  padding: 24px 0 19px;
+}
+.box__link {
+  font-family: var(--poppins);
+  font-size: 1.2rem;
+  color: #377dff;
+}
+
+/* =========main box END=========*/
