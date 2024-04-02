@@ -35,20 +35,19 @@ console.log("The remainder of number1 is", number1 % 4);
 console.log("Increment of number1", --number1); //  remember from now number1 = 22
 
 // increment of number2
-console.log("Increment of number2", ++number1); //  remember from now number1 = 22
+console.log("Increment of number2", ++number1); //  remember from now number1 = 13
 
 // addition of number1  and number2
-console.log("addition by using assignment",number1 += number2);
+console.log("addition by using assignment", (number1 += number2));
 
-// Submission of number1  and number2
-console.log("submission by using assignment",number3 -= number2);
+// Subtraction of number1  and number2
+console.log("Subtraction by using assignment", (number3 -= number2));
 
 // Multiplication
 let number4 = 2;
 let number5 = 6;
-console.log("multiplication by using assignment",number4 *= number5);
+console.log("multiplication by using assignment", (number4 *= number5));
 
 // division
 let number6 = 8;
-console.log("division by using assignment",number6 /= number5);
-
+console.log("division by using assignment", (number6 /= number5));
