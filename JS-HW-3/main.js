@@ -23,7 +23,7 @@ console.log("Is 24 less or equal than 24: ", num1 <= num4); // true
 // AND operator represented by &&
 
 // if any comparetion or value is true in OR operator than the output will be true. if all comparetion or value is False in OR operator output will be false
-// if any comparetion or value is false in AND operator than the output will be False. if all comparetion or value is TRUE in OR operator output will be true.
+// if any comparetion or value is false in AND operator than the output will be False. if all comparetion or value is TRUE in AND operator output will be true.
 
 console.log("OR operator: ", num3 <= num2 || num3 >= num2);
 console.log("AND operator: ", num3 <= num2 && num3 >= num2);
