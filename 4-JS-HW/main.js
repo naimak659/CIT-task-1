@@ -1,18 +1,16 @@
 let input = prompt(`Enter a number:`);
 let userInput = +input;
 
-
 switch (userInput) {
-    case 1:
-    case 2:
-    case 3:
-    case 4:
-    case 5:
-        console.log(`this is less than 5`);
-    default:
-        console.log(`this is greater than 5`);
+  case 1:
+  case 2:
+  case 3:
+  case 4:
+  case 5:
+    console.log(`this is less than 5`);
+  default:
+    console.log(`this is greater than 5`);
 }
-
 
 // for loop
 for (let x = 1; x < 11; x++) {
