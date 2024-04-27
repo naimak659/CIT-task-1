@@ -34,7 +34,3 @@ do {
   y++;
 } while (y < 31);
 
-// if (typeof userInput == 'number') {
-// } else{
-//     console.log(`enter a number`);
-// }
