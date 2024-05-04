@@ -57,3 +57,7 @@ console.log(
 
   `
 );
+
+for (const key in blank) {
+  console.log(`key: ${key} & property: ${blank[key]}`);
+}
