@@ -71,4 +71,5 @@ function createBTN(parent) {
   parent.appendChild(div);
 }
 
+// calling func
 createNav();
