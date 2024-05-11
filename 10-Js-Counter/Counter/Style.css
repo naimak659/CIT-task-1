@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+ul,
+ol {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+img {
+  vertical-align: middle;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+li,
+a,
+div,
+span,
+ul {
+  margin: 0;
+  padding: 0;
+}
+.counterPRoject {
+  display: flex;
+  width: 100%;
+  padding: 300px 60px;
+  background: #222831;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+}
+.counterPRoject .title {
+  font-size: 2rem;
+  max-width: 400px;
+}
+.counterBox {
+  display: flex;
+  flex-direction: column;
+}
+.counter {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.counterBox p {
+  font-size: 1rem;
+  font-weight: 600;
+}
+.btn-counter {
+  font-size: 1.5rem;
+  font-weight: 700;
+  background: #76abae;
+  padding: 8px 16px;
+  border-radius: 20px;
+  color: white;
+  font-size: 1rem;
+  border: none;
+  outline: none;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
